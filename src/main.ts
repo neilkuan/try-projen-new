@@ -1,9 +1,9 @@
-export interface HelloProps {
-  word: string;
+export interface IHelloProps {
+  readonly word: string;
 }
 export class Hello {
-  word
-  constructor(props: HelloProps) {
+  readonly word :string;
+  constructor(props: IHelloProps) {
     this.word = props.word;
   }
   public sayword() :string {

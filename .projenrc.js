@@ -4,8 +4,10 @@ const project = new AwsCdkConstructLibrary({
   defaultReleaseBranch: 'main',
   name: 'githubworkflow-test',
   defaultReleaseBranch: 'main',
+  repository: 'https://github.com/neilkuan/try-projen-new.git',
   author: 'Neil Kuan',
   // define install helm step in build and release workflows.
+  release: false,
   workflowBootstrapSteps: [
     {
       name: 'Install Helm',

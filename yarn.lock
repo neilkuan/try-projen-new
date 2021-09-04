@@ -1901,9 +1901,9 @@ ecc-jsbn@~0.1.1:
     safer-buffer "^2.1.0"
 
 electron-to-chromium@^1.3.811:
-  version "1.3.828"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.828.tgz#0dee975b5bf45d6357af266f350fcdb6736a5e40"
-  integrity sha512-2kx537tLqIVfUpx7LRknZce5PcCyxyBB1YUVOhxlkrDoCqFITGJGYfBAvSxGOdqlp+R9pHeU9Ai/dsHgsqjrvQ==
+  version "1.3.830"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.830.tgz#40e3144204f8ca11b2cebec83cf14c20d3499236"
+  integrity sha512-gBN7wNAxV5vl1430dG+XRcQhD4pIeYeak6p6rjdCtlz5wWNwDad8jwvphe5oi1chL5MV6RNRikfffBBiFuj+rQ==
 
 emittery@^0.8.1:
   version "0.8.1"
@@ -3638,10 +3638,10 @@ jsii-diff@^1.34.0:
     typescript "~3.9.10"
     yargs "^16.2.0"
 
-jsii-docgen@^3.3.11:
-  version "3.3.11"
-  resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-3.3.11.tgz#145d256084d814817b7f50f3f275c714bbebc229"
-  integrity sha512-+WP2ACUmkoM7TJ7wV29JlsQx8bdDiI85PVVU6hBMUSPT8XXAx0ZgMzlUeQ2iiwuQ9HxSSABFzeVMWdeqJbvSYA==
+jsii-docgen@^3.3.12:
+  version "3.3.12"
+  resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-3.3.12.tgz#fb98b176dac643fc0eef255f4d92ebecb863f755"
+  integrity sha512-jvungDJhvODAdK13G3Wvro31dh9CRkCDLILyB3Mr8PTxWnbjcNt6PggZ5ktVMIeWS/+/5yLjPw7lAWwntSV74w==
   dependencies:
     "@jsii/spec" "^1.34.0"
     case "^1.6.3"
@@ -4224,9 +4224,9 @@ npm-bundled@^1.1.1:
     npm-normalize-package-bin "^1.0.1"
 
 npm-check-updates@^11:
-  version "11.8.4"
-  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-11.8.4.tgz#07d83cb6bdbea6253d5e899a68ffa70ec0582ca7"
-  integrity sha512-+whsAZw7z1v9Quj7F83Eafq+lX9TJhdFZj0HLZDmlS4bUpS919GmXD8zTCqh5ZDCxSpGwvm7FiW4X+xKSOoAgw==
+  version "11.8.5"
+  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-11.8.5.tgz#8dec7fd255a437264742c15f9c0bb29f4eceaf55"
+  integrity sha512-IYSHjlWe8UEugDy7X0qjBeJwcni4DlcWdBK4QQEbwgkNlEDlXyd4yQJYWFumKaJzrp/n5/EcvaboXsBD1Er/pw==
   dependencies:
     chalk "^4.1.2"
     cint "^8.2.1"

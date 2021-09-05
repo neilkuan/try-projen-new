@@ -6,7 +6,7 @@
 
 ### Hello <a name="githubworkflow-test.Hello"></a>
 
-#### Initializer <a name="githubworkflow-test.Hello.Initializer"></a>
+#### Initializers <a name="githubworkflow-test.Hello.Initializer"></a>
 
 ```typescript
 import { Hello } from 'githubworkflow-test'

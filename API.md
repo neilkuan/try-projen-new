@@ -33,6 +33,10 @@ public sayword()
 
 ##### `word`<sup>Required</sup> <a name="githubworkflow-test.Hello.property.word"></a>
 
+```typescript
+public readonly word: string;
+```
+
 - *Type:* `string`
 
 ---
@@ -48,6 +52,10 @@ public sayword()
 #### Properties <a name="Properties"></a>
 
 ##### `word`<sup>Required</sup> <a name="githubworkflow-test.IHelloProps.property.word"></a>
+
+```typescript
+public readonly word: string;
+```
 
 - *Type:* `string`
 

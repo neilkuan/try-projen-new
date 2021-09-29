@@ -1,6 +1,6 @@
 const { AwsCdkConstructLibrary, DependenciesUpgradeMechanism } = require('projen');
 const project = new AwsCdkConstructLibrary({
-  cdkVersion: '1.95.2',
+  cdkVersion: '1.124.0',
   defaultReleaseBranch: 'main',
   name: 'githubworkflow-test',
   defaultReleaseBranch: 'main',
@@ -29,10 +29,11 @@ helm repo update`,
   // helm repo update`,
   //   }],
   python: {
-    distName: 'cdk8s-aws-load-balancer-controller',
-    module: 'cdk8s_aws_load_balancer_controller',
+    distName: 'xx',
+    module: 'xx',
   },
   depsUpgrade: DependenciesUpgradeMechanism.githubWorkflow({
+    ignoreProjen: false,
     workflowOptions: {
       labels: ['auto-approve'],
       secret: 'AUTOMATION_GITHUB_TOKEN',

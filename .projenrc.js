@@ -1,6 +1,6 @@
-const { AwsCdkConstructLibrary, DependenciesUpgradeMechanism } = require('projen');
+const { AwsCdkConstructLibrary } = require('projen');
 const project = new AwsCdkConstructLibrary({
-  cdkVersion: '1.124.0',
+  cdkVersion: '1.125.0',
   defaultReleaseBranch: 'main',
   name: 'githubworkflow-test',
   defaultReleaseBranch: 'main',
@@ -32,13 +32,13 @@ helm repo update`,
     distName: 'xx',
     module: 'xx',
   },
-  depsUpgrade: DependenciesUpgradeMechanism.githubWorkflow({
+  depsUpgradeOptions: {
     ignoreProjen: false,
     workflowOptions: {
       labels: ['auto-approve'],
       secret: 'AUTOMATION_GITHUB_TOKEN',
     },
-  }),
+  },
   autoApproveOptions: {
     secret: 'GITHUB_TOKEN',
     allowedUsernames: ['neilkuan'],

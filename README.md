@@ -1,7 +1,7 @@
 # try-projen-new
 
 ```js
-const { AwsCdkConstructLibrary, DependenciesUpgradeMechanism } = require('projen');
+const { AwsCdkConstructLibrary } = require('projen');
 const project = new AwsCdkConstructLibrary({
   cdkVersion: '1.95.2', // cdk version.
   defaultReleaseBranch: 'main',
@@ -38,12 +38,12 @@ helm repo update`,
     module: 'cdk8s_aws_load_balancer_controller',
   },
   // setting Dependencies Upgrade workflow and add auto-approve via repo owner. need to add PAT to secret. 
-  depsUpgrade: DependenciesUpgradeMechanism.githubWorkflow({
+  depsUpgrade: {
     workflowOptions: {
       labels: ['auto-approve'],
       secret: 'AUTOMATION_GITHUB_TOKEN',
     },
-  }),
+  },
   // auto approval via github token
   autoApproveOptions: {
     secret: 'GITHUB_TOKEN',

@@ -1,5 +1,5 @@
-const { AwsCdkConstructLibrary } = require('projen');
-const project = new AwsCdkConstructLibrary({
+const { awscdk } = require('projen');
+const project = new awscdk.AwsCdkConstructLibrary({
   cdkVersion: '1.125.0',
   defaultReleaseBranch: 'main',
   name: 'githubworkflow-test',

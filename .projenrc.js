@@ -36,7 +36,6 @@ helm repo update`,
     ignoreProjen: true,
     workflowOptions: {
       labels: ['auto-approve'],
-      secret: 'AUTOMATION_GITHUB_TOKEN',
     },
   },
   autoApproveOptions: {

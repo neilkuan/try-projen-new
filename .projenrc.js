@@ -33,7 +33,7 @@ helm repo update`,
     module: 'xx',
   },
   depsUpgradeOptions: {
-    ignoreProjen: true,
+    ignoreProjen: false,
     workflowOptions: {
       labels: ['auto-approve'],
     },

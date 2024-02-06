@@ -1,6 +1,6 @@
 const { awscdk } = require('projen');
 const project = new awscdk.AwsCdkConstructLibrary({
-  cdkVersion: '1.125.0',
+  cdkVersion: '2.125.0',
   defaultReleaseBranch: 'main',
   name: 'githubworkflow-test',
   defaultReleaseBranch: 'main',
@@ -42,5 +42,13 @@ const project = new awscdk.AwsCdkConstructLibrary({
     secret: 'GITHUB_TOKEN',
     allowedUsernames: ['neilkuan'],
   },
+  devDeps: [
+    'ts-jest@29.1.2',
+    'jsii-rosetta@5.0.x',
+  ],
+  minNodeVersion: '20.10.0',
+  workflowNodeVersion: '20.10.0',
+  typescriptVersion: '^5',
+  jsiiVersion: '5.3.x',
 });
 project.synth();

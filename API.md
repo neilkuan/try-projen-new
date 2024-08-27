@@ -1,12 +1,12 @@
-# API Reference <a name="API Reference"></a>
+# API Reference <a name="API Reference" id="api-reference"></a>
 
 
 
-## Classes <a name="Classes"></a>
+## Classes <a name="Classes" id="Classes"></a>
 
-### Hello <a name="githubworkflow-test.Hello"></a>
+### Hello <a name="Hello" id="githubworkflow-test.Hello"></a>
 
-#### Initializers <a name="githubworkflow-test.Hello.Initializer"></a>
+#### Initializers <a name="Initializers" id="githubworkflow-test.Hello.Initializer"></a>
 
 ```typescript
 import { Hello } from 'githubworkflow-test'
@@ -14,50 +14,74 @@ import { Hello } from 'githubworkflow-test'
 new Hello(props: IHelloProps)
 ```
 
-##### `props`<sup>Required</sup> <a name="githubworkflow-test.Hello.parameter.props"></a>
-
-- *Type:* [`githubworkflow-test.IHelloProps`](#githubworkflow-test.IHelloProps)
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#githubworkflow-test.Hello.Initializer.parameter.props">props</a></code> | <code><a href="#githubworkflow-test.IHelloProps">IHelloProps</a></code> | *No description.* |
 
 ---
 
-#### Methods <a name="Methods"></a>
+##### `props`<sup>Required</sup> <a name="props" id="githubworkflow-test.Hello.Initializer.parameter.props"></a>
 
-##### `sayword` <a name="githubworkflow-test.Hello.sayword"></a>
+- *Type:* <a href="#githubworkflow-test.IHelloProps">IHelloProps</a>
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#githubworkflow-test.Hello.sayword">sayword</a></code> | *No description.* |
+
+---
+
+##### `sayword` <a name="sayword" id="githubworkflow-test.Hello.sayword"></a>
 
 ```typescript
-public sayword()
+public sayword(): string
 ```
 
 
-#### Properties <a name="Properties"></a>
+#### Properties <a name="Properties" id="Properties"></a>
 
-##### `word`<sup>Required</sup> <a name="githubworkflow-test.Hello.property.word"></a>
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#githubworkflow-test.Hello.property.word">word</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `word`<sup>Required</sup> <a name="word" id="githubworkflow-test.Hello.property.word"></a>
 
 ```typescript
 public readonly word: string;
 ```
 
-- *Type:* `string`
+- *Type:* string
 
 ---
 
 
-## Protocols <a name="Protocols"></a>
+## Protocols <a name="Protocols" id="Protocols"></a>
 
-### IHelloProps <a name="githubworkflow-test.IHelloProps"></a>
+### IHelloProps <a name="IHelloProps" id="githubworkflow-test.IHelloProps"></a>
 
-- *Implemented By:* [`githubworkflow-test.IHelloProps`](#githubworkflow-test.IHelloProps)
+- *Implemented By:* <a href="#githubworkflow-test.IHelloProps">IHelloProps</a>
 
 
-#### Properties <a name="Properties"></a>
+#### Properties <a name="Properties" id="Properties"></a>
 
-##### `word`<sup>Required</sup> <a name="githubworkflow-test.IHelloProps.property.word"></a>
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#githubworkflow-test.IHelloProps.property.word">word</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `word`<sup>Required</sup> <a name="word" id="githubworkflow-test.IHelloProps.property.word"></a>
 
 ```typescript
 public readonly word: string;
 ```
 
-- *Type:* `string`
+- *Type:* string
 
 ---
 

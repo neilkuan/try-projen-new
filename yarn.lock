@@ -3581,10 +3581,10 @@ pretty-format@^27.0.0, pretty-format@^27.5.1:
     ansi-styles "^5.0.0"
     react-is "^17.0.1"
 
-projen@^0.90.3:
-  version "0.90.3"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.90.3.tgz#6d0d59d808b40b0c09d95721313fb4519e1425c0"
-  integrity sha512-hvnlTf4y4tVQS+DGsi8mAM3pTuTrJQMldr/gDL0sZOgpvUYP8FZ6SPb3sx5HSNql2iyaaU8S+e9WKZi3C3I7Zw==
+projen@^0.90.5:
+  version "0.90.5"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.90.5.tgz#89eb914721bbab2b2f73400d4b30d468b33e7f05"
+  integrity sha512-MfywqL+8e1gTHblreaxJOxW/Cyvm6dcY/Sg0tBwS6xCAsnlqO0qx+MQSPpPEIouVqcDNKLx8Jsd7BwTqGuQBBQ==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
@@ -4195,9 +4195,9 @@ typescript@^5:
   integrity sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==
 
 typescript@next:
-  version "5.8.0-dev.20241119"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.8.0-dev.20241119.tgz#106f2c7ac2b7ddd6ef23cca3e254224e874337f2"
-  integrity sha512-qj+yMCPvzsR5XXQ2Xq5k5O1tfzhHx94vxSdGWAuagZQJ2tS8CTuQSXGoCsvaKg2rpSnxtCjPECFifCqFB9t5Dw==
+  version "5.8.0-dev.20241120"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.8.0-dev.20241120.tgz#0ec83f7cfbfb93950bbe5f7b30cda4f58b1e8b10"
+  integrity sha512-S2DqqiwzLm6VZiVYDYKevuShxepDUv9HalPh3B7FdRWP192KziwxaPJUtGafpJUeh32YVcvsFLoT8L737bek4w==
 
 typescript@~5.3:
   version "5.3.3"

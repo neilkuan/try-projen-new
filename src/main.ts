@@ -2,7 +2,7 @@ export interface IHelloProps {
   readonly word: string;
 }
 export class Hello {
-  readonly word :string;
+  readonly word: string;
   constructor(props: IHelloProps) {
     this.word = props.word;
   }
